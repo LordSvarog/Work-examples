@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    color: #0a1e36;
+    font: 14px 'geometria', Tahoma;
+    line-height: 140%;
+}
+
+b {}
+
+.hidemini {
+    display: none !important;
+}
+
+* {
+    outline: none;
+}
+
+li {
+    list-style: square;
+    padding-left: 15px;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+h1,
+.h1 {
+    font: 48px 'geometriaextrabold', Tahoma;
+    line-height: 48px;
+    color: #0a1e36;
+    text-transform: uppercase;
+}
+
+h2,
+.h2 {
+    font: 32px 'geometriaextrabold', Tahoma;
+    line-height: 32px;
+    color: #0a1e36;
+    text-transform: uppercase;
+}
+
+h3,
+.h3 {
+    font: 24px 'geometriaextrabold', Tahoma;
+    line-height: 32px;
+    color: #0a1e36;
+    text-transform: uppercase;
+}
+
+h4,
+.h4 {
+    font: 16px 'geometriaextrabold', Tahoma;
+    line-height: 20px;
+    color: #0a1e36;
+    text-transform: uppercase;
+}
+
+.ph {
+    font: 18px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #0a1e36;
+}
+
+.title {
+    font: 18px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.name {
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.price {
+    font: 48px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+    letter-spacing: -2px;
+}
+
+.bigtitle,
+.bigtitle * {
+    font: 130px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+    padding-top: 10px;
+    letter-spacing: -2px;
+}
+
+.bt,
+.bt * {
+    font: 130px 'geometrialight', Tahoma;
+    color: #FFFFFF;
+    letter-spacing: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.promo {
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.round {
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+}
+
+A.but {
+    font: 18px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: 0px;
+    text-decoration: none;
+    background-color: #ff1300;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+A.but:hover {
+    background: #0A1E36;
+    color: white;
+    ?
+}
+
+.pad {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+A.submenu {
+    font: 11px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: 0px;
+    text-decoration: none;
+}
+
+A.submenu:hover {
+    font: 11px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #ff1300;
+    text-transform: uppercase;
+    border: 0px;
+    text-decoration: none;
+}
+
+A.submenu.sel {
+    font: 11px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #ff1300;
+    text-transform: uppercase;
+    border: 0px;
+    text-decoration: none;
+}
+
+A.news,
+.news {
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #0a1e36;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0px;
+}
+
+A.news:hover {
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 100%;
+    color: #ff1300;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 0px;
+}
+
+.date {
+    font: 48px 'geometrialight', Tahoma;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+A {
+    color: #ff1300;
+    text-decoration: none;
+    border-bottom: 1px solid #ff1300;
+}
+
+A:hover {
+    color: #0a1e36;
+    text-decoration: none;
+    border-bottom: 1px solid #0a1e36;
+}
+
+A.bottom {
+    color: #0a1e36;
+    text-decoration: none;
+    border-bottom: 1px solid #0a1e36;
+}
+
+A.bottom:hover {
+    color: #ff1300;
+    text-decoration: none;
+    border-bottom: 1px solid #ff1300;
+}
+
+A.menu {
+    color: #0a1e36;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 14px;
+    border: 0px;
+}
+
+A.menu:hover {
+    color: #ff1300;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 14px;
+    border: 0px;
+}
+
+A.menuright,
+.menuright {
+    color: #6c7886;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 26px;
+    border: 0px;
+    text-transform: none;
+}
+
+.menuright {
+    text-transform: uppercase;
+}
+
+A.menuright:hover {
+    color: #ff1300;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 26px;
+    border: 0px;
+}
+
+hr {
+    background: none;
+    height: 1px;
+    border: 0px;
+}
+
+.rnd {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+.rndb {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.gbut {
+    background-color: #51B302;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 5px;
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 30px;
+    background-image: url(/images/bt/lk.png);
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-position: 3px 3px;
+    cursor: pointer;
+}
+
+.gbut:hover {
+    background-color: #FF1300;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 5px;
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 30px;
+    background-image: url(/images/bt/lk-orange.png);
+}
+
+.gbut.edit {
+    background-position: 0px 0px;
+    background-image: url(/images/bt/iconeditgreen.png);
+}
+
+.gbut.edit:hover {
+    background-image: url(/images/bt/iconedit.png);
+}
+
+.gbut.save {
+    background-position: 0px 0px;
+    background-image: url(/images/bt/iconsavegreen.png);
+}
+
+.gbut.save:hover {
+    background-image: url(/images/bt/iconsave.png);
+}
+
+.gbut.cancel {
+    background-color: #FF1300;
+    border-radius: 25px;
+    cursor: pointer;
+    background-image: none;
+    padding-left: 15px;
+}
+
+.gbut.cancel:hover {
+    background-color: #fff;
+    color: #FF1300;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.gbut.ok {
+    background-color: #51B302;
+    border-radius: 25px;
+    cursor: pointer;
+    background-image: none;
+    padding-left: 15px;
+}
+
+.gbut.ok:hover {
+    background-color: #fff;
+    color: #51B302;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#bn {
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    top: 150px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#bn A {
+    border: 0px;
+}
+
+.cycle-pager span {
+    background: url(/images/pp.png) no-repeat 1px 0px;
+    color: transparent;
+    width: 12px;
+    margin-right: 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cycle-pager span.cycle-pager-active {
+    background: url(/images/pp.png) no-repeat -10px 0px;
+    color: transparent;
+    width: 12px;
+    margin-right: 1px;
+    display: inline-block;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 0px;
+    height: 400px;
+    width: 735px;
+    margin: 20px auto;
+}
+
+.white-popup-mobile {
+    position: relative;
+    background: #FFF;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 20px auto;
+}
+
+
+/* overlay at start */
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+
+/* overlay animate in */
+
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+}
+
+
+/* overlay animate out */
+
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+}
+
+
+/* content at start */
+
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+
+/* content animate it */
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+}
+
+
+/* content animate out */
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+}
+
+.mfp-s-loading .mfp-arrow {
+    display: none;
+}
+
+.my-mfp-zoom-in .zoom-anim-dialog {
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+/* animate in */
+
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* animate out */
+
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+
+/* Dark overlay, start state */
+
+.my-mfp-zoom-in.mfp-bg {
+    opacity: 0.001;
+    /* Chrome opacity transition bug */
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: opacity 0.5s ease-out;
+}
+
+
+/* animate in */
+
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.5;
+}
+
+
+/* animate out */
+
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+
+.login {
+    padding: 5px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    color: #0a1e36;
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 140%;
+}
+
+.textarea {
+    padding: 5px;
+    margin: 0;
+    padding: 0;
+    color: #0a1e36;
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 140%;
+    border-color: #CCCCCC;
+}
+
+.itbl_ph {
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    background: white;
+    overflow: hidden;
+}
+
+.itbl {
+    border-collapse: collapse;
+}
+
+.itbl td {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    right: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+.itbl td:first-child {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    border-left: 0px;
+    padding: 10px;
+    text-align: right;
+}
+
+.itbl td:last-child {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    border-right: 0px;
+    right: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+.itbl tr:last-child td {
+    border-bottom: 0px;
+}
+
+.itbl tr:first-child td {
+    border-top: 0px;
+}
+
+.tbl td {
+    padding: 10px;
+    padding-left: 0px;
+}
+
+hr.delim {
+    background-color: #E6E8EB;
+    height: 1px;
+    border: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+small {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.titlebg {
+    font-weight: bold;
+}
+
+.price{
+		font-family: geometria;
+}
+
+.price span.rub {
+    position: relative;
+	font-family: Roboto;
+}
+
+.bonus_val .price{
+	font-size: 20px;
+}
+
+.menuClear.elFixWidth {
+    display: none;
+}
+
+.topblock_td {
+    transition: all 0.3s ease-out;
+}
+
+#topblock.menuFixar .topblock_td {
+    padding: 20px 0px !important;
+}
+
+.menuClear.elFixWidth {
+    transition: all 0.3s ease-out;
+    height: 130px !important;
+}
+
+.menuClear {
+    transition: all 0.3s ease-out;
+    height: 70px !important;
+}
+
+.hint {
+    background: url(/images/menu-help.png) 0px 0px no-repeat;
+    padding-left: 40px;
+    height: 40px;
+    padding-top: 6px;
+    color: #9AA3AD;
+}
+
+.hint.row2 {
+    background-position: 0px 6px;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.err {
+    border: 1px dashed #FF1300;
+    border-radius: 25px;
+    min-height: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    color: #FF1300;
+    font: 16px 'geometriaextrabold', Tahoma;
+}
+
+.success {
+    border: 1px dashed #51B302;
+    border-radius: 25px;
+    min-height: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    color: #51B302;
+    font: 16px 'geometriaextrabold', Tahoma;
+}
+
+.now_state {
+    border: 3px solid #9AA2AC;
+    border-radius: 25px;
+    min-height: 20px;
+    padding: 25px;
+    position: relative;
+}
+
+.gbut[disabled],
+.gbut[disabled]:hover {
+    color: grey !important;
+    background-color: silver!important;
+}
+
+.green {
+    color: #51B302;
+}
+
+.red {
+    color: #FF1300;
+}
+
+.payment_row {
+    background: url(/images/pattern2.png) center;
+}
+
+.nobrd {
+    border: 0px;
+    text-decoration: none;
+}
+
+
+.itbl{
+
+}
+
+.itbl tr td{
+	pading:5px;
+	border-right:1px solid #efefef !important;
+	border-bottom:1px solid #efefef !important;
+	font-size: 12px;
+}
+
+
+.itbl tr td:last-child{
+	border-right:0px !important ;
+}
+
+.cbut {
+    background-color: #51B302;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 5px;
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 30px;
+    background-image: url(/images/bt/call.png);
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-position: 3px 3px;
+    cursor: pointer;
+}
+
+.cbut:hover {
+    background-color: #FF1300;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font: 11px 'geometriaextrabold', Tahoma;
+    padding-right: 5px;
+    border: 0px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    padding-left: 30px;
+    background-image: url(/images/bt/call-orange.png);
+}
+
+.call {
+    width: 260px;
+    height: 22px;
+    margin-top: 0px;
+    padding: 0;
+    color: #0a1e36;
+    font: 14px 'geometriaextrabold', Tahoma;
+    line-height: 140%;
+}
+
+.for_call {
+    padding-top: 15px;
+}
